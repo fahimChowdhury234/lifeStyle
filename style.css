@@ -13,7 +13,10 @@ body {
     overflow-x: hidden;
 }
 
-h1.h2.h3.h4,
+h1,
+h2,
+h3,
+h4,
 p {
     margin: 0;
 }
@@ -289,26 +292,27 @@ footer p {
     }
 
     .page-header h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .home-blog-section {
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
     .section-title {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .section-title h2 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .sub-hero-section h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
-    .single-blog figure img {
+    .single-blog figure img,
+    .card-blog img {
         height: 250px;
     }
 
@@ -317,7 +321,7 @@ footer p {
     }
 
     .single-blog h2 {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 10px;
     }
 }
